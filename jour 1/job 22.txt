@@ -1,0 +1,6 @@
+USE LaPlateforme;
+
+SELECT * FROM etudiant WHERE age = (SELECT MIN(age) FROM etudiant);
+mysql -u user -p LaPlateforme < job22.sql
+
+

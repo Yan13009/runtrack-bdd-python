@@ -1,0 +1,8 @@
+USE LaPlateforme;
+
+SELECT * FROM etudiant ORDER BY nom ASC, prenom ASC;
+
+mysql -u user -p LaPlateforme < job15.sql
+
+
+

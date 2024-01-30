@@ -1,0 +1,1 @@
+mysqldump -u user -p LaPlateforme > laplateforme.sql

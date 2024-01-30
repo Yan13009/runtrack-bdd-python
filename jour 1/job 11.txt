@@ -1,0 +1,7 @@
+USE LaPlateforme;
+
+
+SELECT * FROM etudiant WHERE nom LIKE '%Dupuis%' AND prenom LIKE '%Gertrude%';
+
+mysql -u user  -p LaPlateforme < job11.sql
+

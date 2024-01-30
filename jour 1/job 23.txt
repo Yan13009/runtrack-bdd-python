@@ -1,0 +1,5 @@
+USE LaPlateforme;
+
+SELECT * FROM etudiant WHERE age = (SELECT MAX(age) FROM etudiant);
+
+mysql -u user -p LaPlateforme < job23.sql

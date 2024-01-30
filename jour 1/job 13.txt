@@ -1,0 +1,7 @@
+USE LaPlateforme;
+
+SELECT * FROM etudiant WHERE age BETWEEN 18 AND 25;
+
+mysql -u user -p LaPlateforme < job13.sql
+
+

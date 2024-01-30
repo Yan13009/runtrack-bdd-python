@@ -1,0 +1,6 @@
+USE LaPlateforme;
+
+SELECT * FROM etudiant ORDER BY age DESC;
+mysql -u user -p LaPlateforme < job10.sql
+
+

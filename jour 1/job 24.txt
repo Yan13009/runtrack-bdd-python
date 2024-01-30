@@ -1,0 +1,6 @@
+USE LaPlateforme;
+
+SELECT AVG(age) AS moyenne_age FROM etudiant;
+
+mysql -u user-p LaPlateforme < job24.sql
+

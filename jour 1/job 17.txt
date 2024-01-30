@@ -1,0 +1,6 @@
+USE LaPlateforme;
+UPDATE etudiant SET age = 20 WHERE nom = 'Spaghetti' AND prenom = 'Betty';
+
+
+mysql -u user -p LaPlateforme < job17.sql
+

@@ -1,0 +1,6 @@
+USE LaPlateforme;
+
+
+DESCRIBE etudiant;
+-- ou
+SHOW COLUMNS FROM etudiant;

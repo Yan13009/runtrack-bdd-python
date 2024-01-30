@@ -1,0 +1,7 @@
+USE LaPlateforme;
+
+
+SELECT * FROM etudiant WHERE age < 18;
+
+mysql -u VOTRE_UTILISATEUR -p LaPlateforme < job8.sql
+ 
